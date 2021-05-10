@@ -3,7 +3,7 @@
 }
 
 :root { 
-  --grey: rgb(182, 182, 182);
+  --grey: rgb(134, 126, 126);
   --yellow: rgb(251, 255, 0);
   --white: rgb(255, 255, 255);
 }
@@ -18,7 +18,7 @@ header {
 
 .navbar {
   width: 80%;
-  border: solid black;
+  /* border: solid black; */
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -37,8 +37,21 @@ input {
   width: 200px;
   margin: 10px;
   padding: 5px;
-  /* background-image: url('searchicon.png');
+  background-image: url('searchicon.png'); <- gal turite ideju kaip sumazinti  png failiuka, kad tilptu i inputa?
   background-position: 10px 10px;
   background-repeat: no-repeat;
   padding: 12px 20px 12px 40px;
-} */
+}
+
+
+.info {
+background: linear-gradient(90deg, var(--yellow) 5%, var(--grey)94%);
+height: 300px;
+}
+
+
+h1 {
+  font-size: 2rem;
+  font-family: 'Quicksand', sans-serif;
+  color: var(--grey);
+}
