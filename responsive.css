@@ -1,6 +1,4 @@
 @media only screen and (min-width: 991px) {
-  body {
-    background-color: lightblue;}
   .navbar {
     flex-direction: row;
     justify-content: space-between;
@@ -16,4 +14,7 @@ align-items: center;
 
 .imge {height: 80px;
 width: 80px;}
+
+.boxes {flex-direction: row;
+justify-content: space-between;}
 }

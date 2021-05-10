@@ -19,7 +19,6 @@ header {
 
 .navbar {
   width: 60%;
-  /* border: solid black; */
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -49,7 +48,7 @@ input {
 
 .info {
 background: linear-gradient(90deg, var(--yellow) 5%, var(--grey)94%);
-height: 300px;
+height: 350px;
 margin-bottom: 10px;
 }
 
@@ -67,6 +66,8 @@ h3 {
 
 p {
   font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  font-size: 0.8rem;
 }
 
 .photo {
@@ -121,3 +122,31 @@ margin: 5px;
   margin: 0;
 }
 
+footer {
+  background-color: var(--grey);
+}
+
+.stripe {
+  height: 10px;
+  background: linear-gradient(90deg, var(--yellow) 5%, var(--grey)94%);
+}
+
+.boxes {
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.box {
+  height: 100px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+	flex-direction: column;
+}
+
+.options {
+  color: var(--white);
+}
