@@ -1,15 +1,18 @@
 @media only screen and (min-width: 991px) {
-  .navbar {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .info {
-    margin-bottom: -60px;
-  }
+.navbar {
+flex-direction: row;
+justify-content: space-between;
+}
+
+.info {
+margin-bottom: -60px;
+}
+
 .container {
 flex-direction: row;
 align-items: center;
 }
+
 .photos2 {flex-direction: row;}
 
 .imge {height: 80px;

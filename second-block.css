@@ -1,0 +1,29 @@
+.second-block {
+  width: 60%;
+  margin: 0 auto;
+  max-width: 600px;
+  min-width: 330px;
+}
+
+.container {
+margin: 20px;
+}
+
+.imge {
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid black ;
+  height: 150px;
+  width: 150px;
+}
+
+.name {
+  color: var(--yellow);
+  font-weight: 600
+  margin-bottom: 0;
+}
+
+.surname {
+  margin: 0;
+}
+

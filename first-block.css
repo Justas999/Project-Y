@@ -1,0 +1,24 @@
+h3 {
+  color: var(--yellow);
+  font-family: 'Quicksand', sans-serif;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.photo {
+  height: 100px;
+  margin: 5px;
+  width: 100px;
+}
+
+.first-block {
+  margin: 0 auto;
+  max-width: 600px;
+  min-width: 330px;
+  width: 100px;
+  width: 60%;
+}
