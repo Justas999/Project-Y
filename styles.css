@@ -4,12 +4,13 @@
 
 :root { 
   --grey: rgb(134, 126, 126);
-  --yellow: rgb(251, 255, 0);
+  --yellow: rgb(224, 172, 0);
   --white: rgb(255, 255, 255);
 }
 
 body {
   background-color: var(--white);
+  min-width: 320px;
 }
 
 header {
@@ -17,12 +18,13 @@ header {
 }
 
 .navbar {
-  width: 80%;
+  width: 60%;
   /* border: solid black; */
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  max-width: 600px;
 
 }
 
@@ -34,13 +36,14 @@ header {
 }
 
 input {
-  width: 200px;
-  margin: 10px;
-  padding: 5px;
-  background-image: url('searchicon.png'); <- gal turite ideju kaip sumazinti  png failiuka, kad tilptu i inputa?
-  background-position: 10px 10px;
+  width: 120px;
+  margin: 10px 10px;
+  background-image: url('download/search-icon-free-vector.jpg');
+  background-size: 20px;
+  background-position: 10px 4px;
   background-repeat: no-repeat;
-  padding: 12px 20px 12px 40px;
+  padding: 5px 20px 5px 40px;
+  border-radius: 10px;
 }
 
 
@@ -55,3 +58,34 @@ h1 {
   font-family: 'Quicksand', sans-serif;
   color: var(--grey);
 }
+
+h3 {
+  font-family: 'Quicksand', sans-serif;
+  color: var(--yellow);
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.photo {
+height: 100px;
+width: 100px;
+background-color: var(--white);
+border-radius: 50%;
+border: 1px solid black;
+margin: 5px;
+}
+
+.first-block {
+  margin-top: 50px;
+  width: 60%;
+  height: 60%;
+  margin: 0 auto;
+  max-width: 600px;
+  min-width: 330px;
+}
+
+
+
+

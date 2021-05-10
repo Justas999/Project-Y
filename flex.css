@@ -65,3 +65,7 @@
 .align-space-between {
   align-content: space-between;
 }
+
+.text-center {
+  text-align: center;
+}
